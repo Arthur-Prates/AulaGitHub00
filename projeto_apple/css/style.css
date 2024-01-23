@@ -1,0 +1,125 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+body{
+    font-family: 'SF Pro Display', sans-serif;
+    cursor: default;
+}
+::-webkit-scrollbar{
+    height: 100%;
+
+}
+::-webkit-scrollbar-track{
+    background-color: #AAAAAA;
+  
+}
+::-webkit-scrollbar-thumb{
+    border: #AAAAAA 7px solid;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#cornatural:hover {
+    scale: 1.1;
+}
+
+#corazul:hover {
+    scale: 1.1;
+}
+
+#corbranco:hover {
+    scale: 1.1;
+}
+
+#corpreto:hover {
+    scale: 1.1;
+}
+.aModificado{
+    text-decoration: none;
+}
+.aModificado:hover{
+text-decoration: underline;
+}
+.aclean{
+    color: #737373;
+    text-decoration: none; 
+}
+.aclean:hover{
+text-decoration: underline;
+
+}
+.adm{
+    position: absolute;
+}
+.filho{
+    position: relative;
+   top: 20px;
+color: #fff;
+}
+
+.offcanvas-header {
+    display:block !important; 
+   align-items: center;
+   justify-content: space-between;
+   padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+}
+
+.offcanvas-backdrop.fade.show{
+
+   -webkit-filter: blur(10px);
+   -moz-filter: blur(10px);
+   -o-filter: blur(10px);
+   -ms-filter: blur(10px);
+   filter: blur(10px);
+}
+.form-control {
+   display: block;
+   width: 100% !important;
+   padding: 0.375rem 0.75rem;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: var(--bs-body-color);
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background-color: var(--bs-body-bg);
+   background-clip: padding-box;
+   border: var(--bs-border-width) solid var(--bs-border-color);
+   border-radius: var(--bs-border-radius);
+   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.houver:hover{
+   background-color: rgba(128, 128, 128, 0.315);
+   border-radius: 5px;
+}
+
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+   --bs-offcanvas-zindex: 1045;
+   --bs-offcanvas-width: 400px;
+   --bs-offcanvas-height: 80vh !important;
+   --bs-offcanvas-padding-x: 1rem;
+   --bs-offcanvas-padding-y: 1rem;
+   --bs-offcanvas-color: var(--bs-body-color);
+   --bs-offcanvas-bg: var(--bs-body-bg);
+   --bs-offcanvas-border-width: var(--bs-border-width);
+   --bs-offcanvas-border-color: var(--bs-border-color-translucent);
+   --bs-offcanvas-box-shadow: var(--bs-box-shadow-sm);
+   --bs-offcanvas-transition: transform 0.3s ease-in-out;
+   --bs-offcanvas-title-line-height: 1.5;
+}
+
+.hoveritem:hover{
+   color: gray;
+   cursor: pointer;
+}
+
