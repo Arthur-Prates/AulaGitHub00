@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+    align-items: center;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#cornatural:hover {
+    scale: 1.1;
+}
+
+#corazul:hover {
+    scale: 1.1;
+}
+
+#corbranco:hover {
+    scale: 1.1;
+}
+
+#corpreto:hover {
+    scale: 1.1;
+}
+
+.aModificado {
+    text-decoration: none;
+}
+
+.aModificado:hover {
+    text-decoration: underline;
+}
+
+.aclean {
+    color: #737373;
+    text-decoration: none;
+}
+
+.aclean:hover {
+    text-decoration: underline;
+
+}
+
+.adm {
+    position: absolute;
+}
+
+.filho {
+    position: relative;
+    top: 20px;
+    color: #fff;
+}
+
+.input2 {
+    border-color: rgb(165, 163, 163);
+    border-radius: 3px;
+    padding-left: 5%;
+    padding: 10px;
+    /* adição de margem automática */
+    size: 10px;
+}
+
+.cachorro{
+    text-decoration: none;
+}

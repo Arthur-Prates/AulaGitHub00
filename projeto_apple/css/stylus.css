@@ -1,0 +1,27 @@
+#title{
+  font-weight: 600;
+}#subtitle{
+  margin-top: 75px;
+  color: rgb(80, 80, 80);
+  font-weight: 600;
+}
+.efeitinho{
+  text-decoration: none;
+}
+.efeitinho:hover{
+  text-decoration: underline;
+}
+#cadeVc{
+  visibility: hidden;
+}
+#seta2{
+  display: none;
+}
+.site{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.site-content{
+  flex-grow: 1;
+}
